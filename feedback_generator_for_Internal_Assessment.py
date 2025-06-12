@@ -173,7 +173,7 @@ def main():
     col1, col2 = st.columns([1, 1])
     
     with col1:
-        st.header("📝 Assignment Setup")
+        st.header("📋 Setup Evaluation Criteria")
         
         # Student and assignment info
         student_name = st.text_input("Student Name", placeholder="Enter student's name")
