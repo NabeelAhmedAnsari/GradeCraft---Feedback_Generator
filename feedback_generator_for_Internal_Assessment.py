@@ -7,7 +7,7 @@ import re
 from config import API_KEY
 
 # Configure Gemini API
-GEMINI_API_KEY = API_KEY
+GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Configure page
