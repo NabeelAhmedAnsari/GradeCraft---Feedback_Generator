@@ -155,7 +155,7 @@ def calculate_overall_score(rubric_data, scores):
     return total_score, max_possible
 
 def main():
-    st.title("🎓 AI-Powered Student Feedback Generator")
+    st.title("🎓 GradeCraft – crafted feedback for student assessments")
     st.markdown("Generate personalized, consistent feedback for student assessments using AI")
     
     # Sidebar for feedback history
