@@ -4,7 +4,7 @@ import json
 import pandas as pd
 from datetime import datetime
 import re
-from config import API_KEY
+
 
 # Configure Gemini API
 GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
